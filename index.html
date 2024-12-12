@@ -3,47 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kakinada</title>
+    <title>Explore Kakinada</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #eef2f3;
             text-align: center;
         }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+        }
         h1 {
-            color: #333;
-            margin-top: 20px;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
         }
         img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
-            border-radius: 10px;
+            border-radius: 15px;
             margin: 20px 0;
         }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
         p {
-            max-width: 700px;
+            max-width: 800px;
             margin: 0 auto;
-            line-height: 1.6;
+            line-height: 1.8;
+            color: #333;
             padding: 0 10px;
         }
         footer {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 0;
             margin-top: 30px;
-            font-size: 14px;
-            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Kakinada</h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Kakinada_Beach.jpg" alt="Kakinada Beach">
-    <p>
-        Kakinada, located in Andhra Pradesh, India, is a beautiful coastal city known for its serene beaches, rich cultural heritage, and mouthwatering seafood. 
-        A perfect destination for nature lovers and food enthusiasts, Kakinada offers a peaceful retreat with its calm surroundings and vibrant local culture.
-    </p>
+    <header>
+        <h1>Explore Kakinada</h1>
+    </header>
+    <main>
+        <p>
+            Kakinada, situated on the eastern coast of Andhra Pradesh, India, is a vibrant city known for its pristine beaches, bustling harbor, and rich culture.
+            Home to the picturesque Uppada Beach, Coringa Wildlife Sanctuary, and the scenic Hope Island, Kakinada offers something for every traveler.
+        </p>
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Kakinada_Beach.jpg" alt="Kakinada Beach">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Coringa_Wildlife_Sanctuary.jpg" alt="Coringa Wildlife Sanctuary">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Uppada_Beach_Kakinada.jpg" alt="Uppada Beach">
+        </div>
+        <p>
+            The city is also famous for its delectable Andhra cuisine, including the iconic Kakinada Kaaja, and its harmonious blend of natural beauty and urban charm.
+        </p>
+    </main>
     <footer>
-        &copy; 2024 Kakinada Tourism. All rights reserved.
+        &copy; 2024 Explore Kakinada. All rights reserved.
     </footer>
 </body>
 </html>
